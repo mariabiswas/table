@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+	<br/>
+	<br/>
+
+
+
+	<marquee >NOTRE DAM UNIVERSITY</marquee>
+
+<!--table-->
+	<table border="10" cellpadding="10" cellspacing="10">
+		<tr>
+			<th>
+				Name
+			</th>
+			<th>subject</th>
+			<th>Fees</th>
+		</tr>
+		
+		<tr>
+			<td>luis</td>
+			<td>accounting</td>
+			<td>$4000</td>
+
+		</tr>
+
+		<tr>
+			<td>Jonathon</td>
+			<td>chemistry lab</td>
+			<td>$10,000</td>
+		</tr>
+
+		<tr>
+			<td>Nicole</td>
+			<td>physics</td>
+			<td>$8000</td>
+		</tr>
+		<tr>
+			<td>Adam</td>
+			<td>Biology</td>
+			<td>$8500</td>
+		</tr>
+
+		<tr>
+			<td>Sam</td>
+			<td>English</td>
+			<td>$3000</td>
+		</tr>
+	</table>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+
+<!--checkbox-->
+<u>
+
+<h2>Forms without label tags</h2>
+</u>
+
+	<form method="POST">
+		
+		Enter first name:
+		<input type="text" id="fname" name="fname"/>
+
+		<br/>
+		<br/>
+
+		Enter your last name:
+		<input type="text" id="lname" name="lname"/>
+
+		<br/>
+		<br/>
+
+		Enter address:
+		<input type="text" id="address" name="address"/>
+
+
+		<br/>
+		<br/>
+
+		Enter school id:
+		<input type="text" id="school id" name="school id"/>
+
+		<br/>
+		<br/>
+
+		Enter address:
+		<textarea rows="10" cols="30"></textarea>
+
+		<br/>
+		<br/>
+
+		Enter your name of High School:
+		<input type="text" id="name of school" name="name of school"/>
+
+		<br/>
+		<br/>
+
+		select your subject:
+		<select name="subjects" multiple>
+			<option value="chemistry">Chemistry</option>
+			<option value="Physics">Physics</option>
+			<option value="accounting">accounting</option>
+			<option value="Biology">Biology</option>
+		</select>
+
+		<br/>
+		<br/>
+
+		<input type="submit" value="submit" name="submit"/>
+
+		<br/>
+		<br/>
+ 
+
+	</form>
+
+	<hr/>
+	<br/>
+	<u>
+
+
+	<h2>Forms with label tags</h2>
+</u>
+
+
+
+	<form>
+		<label for="fname"> Enter first name:</label>
+		<input type="text" id="fname" name="fname"/>
+
+		<br/>
+		<br/>
+
+		<label for="lname"> Enter last name:</label>
+		<input type="text" id="lname" name="lname"/>
+
+		<br/>
+		<br/>
+
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"/>
+
+		<br/>
+		<br/>
+
+		<label for="pwd">password:</label>
+		<input type="text" id="pwd" name="pwd"/>
+
+		<br/>
+		<br/>
+
+
+		<input type="submit" value="submit" name="submit"
+
+
+	</form>
+
+</body>
+</html>
